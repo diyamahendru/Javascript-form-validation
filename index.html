@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS form</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form" action="/" method="GET">
+        <div>
+            <h1>Login in</h1>
+        </div>
+        <div id="error"></div>
+        <div>
+            <label for="name">Username</label>
+            <input id="name" name="name" type="text" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
